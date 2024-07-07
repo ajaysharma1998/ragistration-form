@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <fieldset>
+            <legend>User personal information</legend>
+    
+        <label for="fullName">Enter your full name</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm your password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label>Enter your gender</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label>
+
+        <label for="dob">Enter your Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Enter your Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
